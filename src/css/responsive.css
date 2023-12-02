@@ -1,0 +1,44 @@
+@media(max-width: 435px){
+    body{
+        height: auto;
+    }
+    .container{
+       height: auto;
+       width: 100%;
+       padding: 28px 20px;
+    }
+.card{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+  
+}
+.card .paragraph-2{
+    margin-bottom: 25px;
+}
+.subscription{
+    border-radius: 0;
+}
+.why{
+
+    border-bottom-left-radius: 10px;
+}
+.why .title
+.price{
+    display: flex;
+    justify-content: center;
+}
+}
+@media(max-width:768px){
+    .card{
+        
+        width: auto;
+        padding: 20px;  
+    }
+    .card .comunity{
+        padding-bottom: 10px;
+    }
+    .subscription .btn{
+        padding: 8px 60px;
+    }
+}

@@ -1,0 +1,97 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background-color:  hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: 400;
+    color: #fff;
+}
+
+.card{
+    display: grid;
+    grid-template-areas: "comunity comunity"
+                          "subscription why";
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr; 
+     width: 700px;
+     height: 500px;
+                   
+}
+.comunity{
+    grid-area: comunity;
+    background-color: #fff;
+    padding: 40px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+}
+.comunity .title{
+    color:  hsl(179, 62%, 43%);
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.comunity .garantia{
+    color:  hsl(71, 73%, 54%);
+    margin-bottom: 20px;
+}
+.comunity .paragraph-1,
+.comunity .paragraph-2{
+    margin-bottom: 5px;
+    color: hsl(218, 22%, 67%);
+}
+.subscription{
+    grid-area: subscription;
+    background-color: #008b8b;
+    padding: 40px;
+      border-bottom-left-radius: 10px;
+}
+.subscription .title-subscription{
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+.subscription .price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.subscription .value{
+    font-size: 28px;
+}
+.subscription .month{
+    color:hsl(204, 43%, 93%);
+}
+.subscription .full-acess{
+    margin-bottom:30px ;
+}
+.subscription .btn{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: hsl(71, 73%, 54%); 
+    border: none;
+    padding: 12px 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.subscription .btn:hover{
+    opacity: 0.8;
+}
+.why{
+    grid-area: why;
+    background-color: hsl(179, 62%, 43%);
+    padding: 40px;
+    border-bottom-right-radius: 10px;
+  
+}
+.why .why-us{
+    margin-bottom: 25px;
+}
+.why ul li{
+    color:hsl(204, 43%, 93%);
+    line-height: 21px;
+}
